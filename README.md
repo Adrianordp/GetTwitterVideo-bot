@@ -15,12 +15,14 @@ Clone this repository locally, then setup the right settings for your twitter AP
 ### First-use only setup
 First, [create a twitter developer account](https://developer.twitter.com/en/docs/authentication/oauth-2-0/bearer-tokens) to obtain a bearer token.
 
-Inside this project's path, paste you bearer token into the designated area inside the file named `config.json`:
+Inside this project's path, find the `config-example.json` file:
 ```json
+//config-example.json
 {
     "bearer_token": "Your bearer token here"
 }
 ```
+Rename it to `config.json`. Then paste you bearer token into the designated area.
 
 Your tools is ready to use!
 
